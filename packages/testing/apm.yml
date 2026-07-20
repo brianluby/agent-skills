@@ -1,0 +1,6 @@
+name: testing
+version: 0.1.0
+description: Focused test design and verification guidance for agentic work.
+license: MIT
+type: skill
+includes: auto

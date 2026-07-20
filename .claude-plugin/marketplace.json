@@ -1,0 +1,36 @@
+{
+  "name": "agent-skills",
+  "owner": {
+    "name": "agent-skills-maintainers"
+  },
+  "plugins": [
+    {
+      "name": "foundation",
+      "description": "Minimal repository workflow and verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/foundation"
+    },
+    {
+      "name": "rust",
+      "description": "Rust implementation, testing, and tooling guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/rust"
+    },
+    {
+      "name": "testing",
+      "description": "Test planning and focused verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/testing"
+    },
+    {
+      "name": "code-review",
+      "description": "Evidence-based code review workflow.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/code-review"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+name: YOUR_COMPANY-agent-skills
+version: 0.1.0
+description: Private company-only agent skills.
+license: UNLICENSED
+
+marketplace:
+  owner:
+    name: YOUR_ORG
+  outputs:
+    claude: {}
+    codex: {}
+  versioning:
+    strategy: lockstep
+  packages:
+    - name: company-context
+      description: Private architecture and workflow context for YOUR_COMPANY.
+      source: ./packages/company-context
+      version: 0.1.0
+      category: Productivity

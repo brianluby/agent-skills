@@ -1,0 +1,34 @@
+name: agent-skills
+version: 0.1.0
+description: A public, minimal-by-default marketplace of composable agent skills.
+license: MIT
+
+marketplace:
+  owner:
+    name: agent-skills-maintainers
+  outputs:
+    claude: {}
+    codex: {}
+  versioning:
+    strategy: lockstep
+  packages:
+    - name: foundation
+      description: Minimal repository workflow and verification guidance.
+      source: ./packages/foundation
+      version: 0.1.0
+      category: Productivity
+    - name: rust
+      description: Rust implementation, testing, and tooling guidance.
+      source: ./packages/rust
+      version: 0.1.0
+      category: Productivity
+    - name: testing
+      description: Test planning and focused verification guidance.
+      source: ./packages/testing
+      version: 0.1.0
+      category: Productivity
+    - name: code-review
+      description: Evidence-based code review workflow.
+      source: ./packages/code-review
+      version: 0.1.0
+      category: Productivity

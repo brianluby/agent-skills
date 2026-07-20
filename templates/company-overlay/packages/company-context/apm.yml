@@ -1,0 +1,6 @@
+name: company-context
+version: 0.1.0
+description: Private architecture and workflow context for a company overlay.
+license: UNLICENSED
+type: skill
+includes: auto

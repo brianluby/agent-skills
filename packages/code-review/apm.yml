@@ -1,0 +1,6 @@
+name: code-review
+version: 0.1.0
+description: Evidence-based code review workflow for agentic work.
+license: MIT
+type: skill
+includes: auto
