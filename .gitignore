@@ -4,5 +4,10 @@ apm_modules/
 # Packaged artifacts are release output, not source.
 build/
 
+# Scraper runtime database (rebuilt by scripts/scrape_github_skills.py).
+db/*.db
+db/*.db-*
+
 # Local editor and operating-system files.
 .DS_Store
+.serena/

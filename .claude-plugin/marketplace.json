@@ -1,7 +1,8 @@
 {
   "name": "agent-skills",
   "owner": {
-    "name": "agent-skills-maintainers"
+    "name": "brianluby",
+    "url": "https://github.com/brianluby"
   },
   "plugins": [
     {
@@ -17,6 +18,62 @@
       "version": "0.1.0",
       "category": "Productivity",
       "source": "./packages/rust"
+    },
+    {
+      "name": "golang",
+      "description": "Go implementation, concurrency, modules, and verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/golang"
+    },
+    {
+      "name": "typescript",
+      "description": "TypeScript implementation, runtime-boundary, package, and verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/typescript"
+    },
+    {
+      "name": "python",
+      "description": "Python implementation, typing, packaging, async, and verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/python"
+    },
+    {
+      "name": "sqlite",
+      "description": "SQLite schema, query, migration, concurrency, and operational guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/sqlite"
+    },
+    {
+      "name": "postgresql",
+      "description": "PostgreSQL schema, query, migration, performance, and operations guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/postgresql"
+    },
+    {
+      "name": "docker",
+      "description": "Docker image, Dockerfile, Compose, runtime security, and verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/docker"
+    },
+    {
+      "name": "terraform",
+      "description": "Terraform module, state, plan, migration, and infrastructure verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/terraform"
+    },
+    {
+      "name": "aws",
+      "description": "AWS architecture, IAM, service operations, security, and verification guidance.",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "source": "./packages/aws"
     },
     {
       "name": "testing",

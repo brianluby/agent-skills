@@ -9,6 +9,13 @@ Use the smallest profile that covers the repository and task. Add a task package
 | Rust minimal | `foundation`, `rust` | Day-to-day work in a Rust repository |
 | Rust implementation | `foundation`, `rust`, `testing` | Implementing or materially changing behaviour in a Rust service |
 | Rust review | `foundation`, `rust`, `code-review` | Reviewing a Rust change or running review automation |
+| Go service | `foundation`, `golang`, `testing` | Implementing or changing a Go service |
+| TypeScript application | `foundation`, `typescript`, `testing` | Implementing a TypeScript application or package |
+| Python service | `foundation`, `python`, `testing` | Implementing a Python service, library, or CLI |
+| SQLite application | `foundation`, one language package, `sqlite`, `testing` | Building an embedded or single-node application backed by SQLite |
+| PostgreSQL service | `foundation`, one language package, `postgresql`, `testing` | Building a service backed by PostgreSQL |
+| Containerized service | `foundation`, one language package, `docker`, `testing` | Building and verifying a containerized service |
+| AWS Terraform | `foundation`, `terraform`, `aws`, `code-review` | Reviewing or changing AWS infrastructure managed by Terraform |
 | Generic review | `foundation`, `code-review` | Reviewing a non-Rust repository without stack-specific skills |
 
 ## Consumer manifest example
@@ -20,9 +27,9 @@ name: payments-service
 version: 0.1.0
 dependencies:
   apm:
-    - YOUR_ORG/agent-skills/packages/foundation#v0.1.0
-    - YOUR_ORG/agent-skills/packages/rust#v0.1.0
-    - YOUR_ORG/agent-skills/packages/testing#v0.1.0
+    - brianluby/agent-skills/packages/foundation#v0.1.0
+    - brianluby/agent-skills/packages/rust#v0.1.0
+    - brianluby/agent-skills/packages/testing#v0.1.0
 ```
 
 Run `apm install` from the consuming repository and commit the lockfile it creates.

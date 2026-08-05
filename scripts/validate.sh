@@ -4,6 +4,6 @@ set -euo pipefail
 apm marketplace check
 apm pack --check-versions --dry-run
 
-while IFS= read -r skill; do
-  apm audit --file "$skill"
-done < <(find packages -path '*/.apm/skills/*/SKILL.md' -type f | sort)
+while IFS= read -r instruction_file; do
+  apm audit --file "$instruction_file"
+done < <(find packages -path '*/.apm/skills/*' -type f -name '*.md' | sort)

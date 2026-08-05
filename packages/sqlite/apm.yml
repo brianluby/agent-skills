@@ -1,0 +1,6 @@
+name: sqlite
+version: 0.1.0
+description: SQLite schema, query, migration, concurrency, and operational guidance.
+license: MIT
+type: skill
+includes: auto

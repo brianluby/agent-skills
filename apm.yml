@@ -5,10 +5,13 @@ license: MIT
 
 marketplace:
   owner:
-    name: agent-skills-maintainers
+    name: brianluby
+    url: https://github.com/brianluby
   outputs:
     claude: {}
     codex: {}
+  build:
+    tagPattern: "v{version}"
   versioning:
     strategy: lockstep
   packages:
@@ -20,6 +23,46 @@ marketplace:
     - name: rust
       description: Rust implementation, testing, and tooling guidance.
       source: ./packages/rust
+      version: 0.1.0
+      category: Productivity
+    - name: golang
+      description: Go implementation, concurrency, modules, and verification guidance.
+      source: ./packages/golang
+      version: 0.1.0
+      category: Productivity
+    - name: typescript
+      description: TypeScript implementation, runtime-boundary, package, and verification guidance.
+      source: ./packages/typescript
+      version: 0.1.0
+      category: Productivity
+    - name: python
+      description: Python implementation, typing, packaging, async, and verification guidance.
+      source: ./packages/python
+      version: 0.1.0
+      category: Productivity
+    - name: sqlite
+      description: SQLite schema, query, migration, concurrency, and operational guidance.
+      source: ./packages/sqlite
+      version: 0.1.0
+      category: Productivity
+    - name: postgresql
+      description: PostgreSQL schema, query, migration, performance, and operations guidance.
+      source: ./packages/postgresql
+      version: 0.1.0
+      category: Productivity
+    - name: docker
+      description: Docker image, Dockerfile, Compose, runtime security, and verification guidance.
+      source: ./packages/docker
+      version: 0.1.0
+      category: Productivity
+    - name: terraform
+      description: Terraform module, state, plan, migration, and infrastructure verification guidance.
+      source: ./packages/terraform
+      version: 0.1.0
+      category: Productivity
+    - name: aws
+      description: AWS architecture, IAM, service operations, security, and verification guidance.
+      source: ./packages/aws
       version: 0.1.0
       category: Productivity
     - name: testing

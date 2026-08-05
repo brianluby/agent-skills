@@ -1,0 +1,6 @@
+name: docker
+version: 0.1.0
+description: Docker image, Dockerfile, Compose, runtime security, and verification guidance.
+license: MIT
+type: skill
+includes: auto

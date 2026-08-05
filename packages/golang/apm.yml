@@ -1,0 +1,6 @@
+name: golang
+version: 0.1.0
+description: Go implementation, concurrency, modules, and verification guidance.
+license: MIT
+type: skill
+includes: auto

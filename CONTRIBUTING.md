@@ -13,6 +13,7 @@ Use a new package when its skills have different consumers, release cadence, own
 - Make tool commands safe, scoped, and easy to verify.
 - Do not include secrets, production identifiers, customer data, internal URLs, or organization-specific processes.
 - Test every command and reference a skill asks an agent to use.
+- Keep each package self-contained. Do not rely on maintainer-local skills, stale external collections, or undeclared companion instructions for required behavior.
 
 ## Validation and releases
 

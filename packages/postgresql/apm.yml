@@ -1,0 +1,6 @@
+name: postgresql
+version: 0.1.0
+description: PostgreSQL schema, query, migration, performance, and operations guidance.
+license: MIT
+type: skill
+includes: auto
