@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: microsoft/apm-action@v1
+      - uses: microsoft/apm-action@d723bb64ed70c135bbaf87d126b721dd2dae0439 # v1
+        with:
+          setup-only: true
+          apm-version: 0.27.0
       - name: Validate marketplace and skills
         run: bash scripts/validate.sh
