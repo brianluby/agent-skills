@@ -1,5 +1,5 @@
 name: rust
-version: 0.1.0
+version: 0.2.0
 description: Rust implementation and Cargo workflow guidance for agentic work.
 license: MIT
 type: skill

@@ -1,0 +1,6 @@
+name: ai-security
+version: 0.2.0
+description: Security review guidance for LLM, agent, RAG, and tool-calling systems.
+license: MIT
+type: skill
+includes: auto

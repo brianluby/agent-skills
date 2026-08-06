@@ -1,0 +1,6 @@
+name: security-review
+version: 0.2.0
+description: Evidence-based application security review skill and portable reviewer agent.
+license: MIT
+type: skill
+includes: auto

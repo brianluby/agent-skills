@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Security Review"
+  short_description: "Review AI and agent security boundaries"
+  default_prompt: "Use $ai-security-review to assess this AI integration for prompt injection and unsafe agency."

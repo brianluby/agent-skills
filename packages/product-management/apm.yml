@@ -1,0 +1,6 @@
+name: product-management
+version: 0.2.0
+description: Outcome-focused product framing, prioritization, and delivery scoping guidance.
+license: MIT
+type: skill
+includes: auto

@@ -1,12 +1,23 @@
 # Technology skill summary
 
-This document records the skills created or substantially expanded for the initial Rust, Go, TypeScript, Python, SQLite, PostgreSQL, Docker, Terraform, and AWS coverage.
+This document records the skills created or substantially expanded for the initial Rust, Go, TypeScript, Python, SQLite, PostgreSQL, Docker, Terraform, and AWS coverage. Release `0.2.0` adds focused security, CodeQL, AI-security, and product-management workflow packages.
 
 ## Provenance
 
 Eight skills were authored as new packages in this repository. The existing Rust package was substantially expanded. No skill was copied from the older, unmaintained agents repository, and none depends on skills installed only in a local agent profile. Each package is independently installable and bundles its own deeper reference material.
 
-All packages use the repository's MIT license and lockstep `0.1.0` release version.
+All packages use the repository's MIT license and lockstep release version.
+
+## Workflow additions in 0.2.0
+
+| Package | Primitive | Purpose |
+|---|---|---|
+| `security-review` | `security-review` skill and `security-reviewer` agent | Validate exploitable application-security defects and report evidence-based findings |
+| `ai-security` | `ai-security-review` skill | Review prompt injection, unsafe agency, sensitive-data flow, output handling, and resource bounds |
+| `codeql` | `codeql` skill | Configure and troubleshoot CodeQL workflows, build modes, query scope, and SARIF upload |
+| `product-management` | `product-management` skill | Frame customer problems, compare options, and define measurable delivery scope |
+
+These primitives were rewritten for this marketplace rather than copied from repository-local or third-party bundles. The security-reviewer agent deliberately inherits repository instructions so project-specific policies stay with the consuming repository.
 
 ### Context counting method
 

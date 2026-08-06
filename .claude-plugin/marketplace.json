@@ -8,86 +8,114 @@
     {
       "name": "foundation",
       "description": "Minimal repository workflow and verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/foundation"
     },
     {
       "name": "rust",
       "description": "Rust implementation, testing, and tooling guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/rust"
     },
     {
       "name": "golang",
       "description": "Go implementation, concurrency, modules, and verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/golang"
     },
     {
       "name": "typescript",
       "description": "TypeScript implementation, runtime-boundary, package, and verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/typescript"
     },
     {
       "name": "python",
       "description": "Python implementation, typing, packaging, async, and verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/python"
     },
     {
       "name": "sqlite",
       "description": "SQLite schema, query, migration, concurrency, and operational guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/sqlite"
     },
     {
       "name": "postgresql",
       "description": "PostgreSQL schema, query, migration, performance, and operations guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/postgresql"
     },
     {
       "name": "docker",
       "description": "Docker image, Dockerfile, Compose, runtime security, and verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/docker"
     },
     {
       "name": "terraform",
       "description": "Terraform module, state, plan, migration, and infrastructure verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/terraform"
     },
     {
       "name": "aws",
       "description": "AWS architecture, IAM, service operations, security, and verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/aws"
     },
     {
       "name": "testing",
       "description": "Test planning and focused verification guidance.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/testing"
     },
     {
       "name": "code-review",
       "description": "Evidence-based code review workflow.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "source": "./packages/code-review"
+    },
+    {
+      "name": "security-review",
+      "description": "Evidence-based application security review skill and portable reviewer agent.",
+      "version": "0.2.0",
+      "category": "Security",
+      "source": "./packages/security-review"
+    },
+    {
+      "name": "ai-security",
+      "description": "Security review guidance for LLM, agent, RAG, and tool-calling systems.",
+      "version": "0.2.0",
+      "category": "Security",
+      "source": "./packages/ai-security"
+    },
+    {
+      "name": "codeql",
+      "description": "GitHub CodeQL configuration and troubleshooting guidance.",
+      "version": "0.2.0",
+      "category": "Security",
+      "source": "./packages/codeql"
+    },
+    {
+      "name": "product-management",
+      "description": "Outcome-focused product framing, prioritization, and delivery scoping guidance.",
+      "version": "0.2.0",
+      "category": "Productivity",
+      "source": "./packages/product-management"
     }
   ]
 }

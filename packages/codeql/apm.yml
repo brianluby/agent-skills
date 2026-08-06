@@ -1,0 +1,6 @@
+name: codeql
+version: 0.2.0
+description: GitHub CodeQL configuration and troubleshooting guidance.
+license: MIT
+type: skill
+includes: auto

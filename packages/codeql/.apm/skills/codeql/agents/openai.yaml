@@ -1,0 +1,4 @@
+interface:
+  display_name: "CodeQL"
+  short_description: "Configure and troubleshoot CodeQL scanning"
+  default_prompt: "Use $codeql to review or improve the CodeQL configuration for this repository."

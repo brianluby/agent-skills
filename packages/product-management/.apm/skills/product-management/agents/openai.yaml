@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Management"
+  short_description: "Turn product problems into testable scope"
+  default_prompt: "Use $product-management to frame this product problem and define measurable delivery scope."

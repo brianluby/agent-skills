@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Review"
+  short_description: "Evidence-based application security reviews"
+  default_prompt: "Use $security-review to review this change for exploitable security issues."

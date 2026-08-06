@@ -1,5 +1,5 @@
 name: agent-skills
-version: 0.1.0
+version: 0.2.0
 description: A public, minimal-by-default marketplace of composable agent skills.
 license: MIT
 
@@ -18,60 +18,80 @@ marketplace:
     - name: foundation
       description: Minimal repository workflow and verification guidance.
       source: ./packages/foundation
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: rust
       description: Rust implementation, testing, and tooling guidance.
       source: ./packages/rust
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: golang
       description: Go implementation, concurrency, modules, and verification guidance.
       source: ./packages/golang
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: typescript
       description: TypeScript implementation, runtime-boundary, package, and verification guidance.
       source: ./packages/typescript
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: python
       description: Python implementation, typing, packaging, async, and verification guidance.
       source: ./packages/python
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: sqlite
       description: SQLite schema, query, migration, concurrency, and operational guidance.
       source: ./packages/sqlite
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: postgresql
       description: PostgreSQL schema, query, migration, performance, and operations guidance.
       source: ./packages/postgresql
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: docker
       description: Docker image, Dockerfile, Compose, runtime security, and verification guidance.
       source: ./packages/docker
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: terraform
       description: Terraform module, state, plan, migration, and infrastructure verification guidance.
       source: ./packages/terraform
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: aws
       description: AWS architecture, IAM, service operations, security, and verification guidance.
       source: ./packages/aws
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: testing
       description: Test planning and focused verification guidance.
       source: ./packages/testing
-      version: 0.1.0
+      version: 0.2.0
       category: Productivity
     - name: code-review
       description: Evidence-based code review workflow.
       source: ./packages/code-review
-      version: 0.1.0
+      version: 0.2.0
+      category: Productivity
+    - name: security-review
+      description: Evidence-based application security review skill and portable reviewer agent.
+      source: ./packages/security-review
+      version: 0.2.0
+      category: Security
+    - name: ai-security
+      description: Security review guidance for LLM, agent, RAG, and tool-calling systems.
+      source: ./packages/ai-security
+      version: 0.2.0
+      category: Security
+    - name: codeql
+      description: GitHub CodeQL configuration and troubleshooting guidance.
+      source: ./packages/codeql
+      version: 0.2.0
+      category: Security
+    - name: product-management
+      description: Outcome-focused product framing, prioritization, and delivery scoping guidance.
+      source: ./packages/product-management
+      version: 0.2.0
       category: Productivity
