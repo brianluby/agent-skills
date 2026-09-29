@@ -12,7 +12,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: microsoft/apm-action@d723bb64ed70c135bbaf87d126b721dd2dae0439 # v1
         with:
           setup-only: true
